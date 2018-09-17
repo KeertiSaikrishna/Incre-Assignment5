@@ -1,7 +1,7 @@
 import java.util.regex.Pattern;
 import java.util.regex.Matcher;
 
-public class Main {
+public class PatternCheck {
     public static void main(String[] args) {
         String str = "This is simple example to check wheather a sentence starts with capital letter and ends with a period.";
         Pattern p = Pattern.compile("^[A-Z].*\\.$");
